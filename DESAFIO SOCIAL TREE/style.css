@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+:root {
+  --text-color:white;
+  --bg-url: url(./assents/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-houver:rgba(0, 0, 0, 0.02);
+  --hightlight-color: rgba(255, 255, 255, 0.2);
+}
+*/
+/*
+.light{
+  --text-color: black;
+  --bg-url:url(./assents/bg-mobile-light.jpg);
+  --stroke-color:rgba(0, 0, 0, 0.5);
+  --surface-color: background: rgba(0, 0, 0, 0.05);
+  --surface-color-houver:rgba(0, 0, 0, 0.02);
+  --hightlight-color: rgba(0, 0, 0, 0.1);
+}
+*/
+body {
+  background-color: #FAF7FD;
+  text-color: #bb99DD;
+  /*background:  var(--bg-url) no-repeat top center/cover;*/
+  /*
+  background-image: url(./assents/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+
+  /*background: color image repet*/
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-color: #bb99DD;
+}
+
+#container {
+  width: 300px;
+  margin: auto;
+  margin-top: 56px;
+  padding: 0 24px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #BB99DD;
+  /*em elementos inline eu nao consigo aplicar o margin:auto; dó é possivel aplicar ele em  elementos em bloco*/
+}
+
+.insta {
+  font-weight:300;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #BB99DD;
+  
+}
+
+/*links*/
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 24px;
+  background: none;
+  border: 2px solid #BB99DD;
+  color: #BB99DD;
+  border-radius: 4px;
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 600;
+
+  transition: background 0.2s;
+
+  text-decoration: none;
+  width: 326px;
+  height: 49px;
+}
+
+ul li a:hover {
+  background: rgba(248, 0, 149, 0.02);
+  border: 1px solid #BB99DD;
+}
+
+/*Social Links*/
+#social-links {
+  display: flex;
+  justify-content: center;
+
+  padding: 16px 0px;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: rgba(236, 164, 206, 0.5);
+}
+
+/*para retirar o sublinhado basta fazer isso
+#sublinhado{
+  text-decoration: none;
+}*/

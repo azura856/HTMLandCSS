@@ -60,6 +60,7 @@ body * {
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  padding: 1px;
   border: 2px solid #BB99DD;
   /*em elementos inline eu nao consigo aplicar o margin:auto; dó é possivel aplicar ele em  elementos em bloco*/
 }

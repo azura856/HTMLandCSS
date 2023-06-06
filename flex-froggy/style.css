@@ -1,0 +1,60 @@
+/*LVL1*/
+justify-content: flex-end;
+/*LVL2*/
+justify-content: center;
+/*LVL3*/
+justify-content: space-around;
+/*LVL4*/
+justify-content: space-between;
+/*LVL5*/
+align-items: flex-end;
+/*LVL6*/
+justify-content: center;
+align-items: center;
+/*LVL7*/
+justify-content: space-around;
+align-items: flex-end;
+/*LVL8*/
+flex-direction: row-reverse;
+/*LVL9*/
+flex-direction: column;
+/*LVL10*/
+flex-direction: row-reverse;
+justify-content: start;
+/*LVL11*/
+flex-direction: column;
+justify-content: end;
+/*LVL12*/
+flex-direction: column-reverse;
+justify-content: space-between;
+/*LVL13*/
+flex-direction: row-reverse;
+justify-content: center;
+align-items:end;
+/*LVL14*/
+order:1;
+/*LVL15*/
+order:-1;
+/*LVL16*/
+align-self:end;
+/*LVL17*/
+order:1;
+align-self:end;
+/*LVL18*/
+flex-wrap: wrap;
+/*LVL19*/
+flex-direction: column;
+flex-wrap: wrap;
+/*LVL20*/
+flex-flow: column wrap;
+/*LVL21*/
+align-content: start; 
+/*LVL22*/
+align-content: end;
+/*LVL23*/
+flex-direction:column-reverse;
+align-content:center;
+/*LVL24*/
+flex-flow: column-reverse wrap-reverse;
+justify-content:center;
+align-content:space-between;
